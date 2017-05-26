@@ -14,6 +14,8 @@ public class App {
         TweetStats stats = (TweetStats) ctx.getBean("tweetStats");
 
         try {
+            
+            // check your test cases here by providing input
             tweeter.tweet("alex", "first tweet");
             tweeter.tweet("alex1", "first tweet12khkjsrhjk");
             tweeter.follow("bob", "alex");
